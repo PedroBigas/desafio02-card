@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*
+{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+body
+{
+    background: #0e1538;
+}
+.cartao
+{
+    width: 400px;
+    height: 200px;
+    background-image: url("../images/backgorund.png");
+    background-size: cover;
+    margin: auto;
+    margin-top: 20%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+ul
+{
+    list-style-position: inside;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.insta
+{
+    list-style-image: url("../images/Insta.png");
+}
+.tt
+{
+    list-style-image: url("../images/Twitter.png");
+}
+.yt
+{
+    list-style-image: url("../images/Youtube.png");
+}
+
